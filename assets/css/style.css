@@ -39,6 +39,18 @@ a:hover {
 	color: #999;
 }
 
+.start{
+	width: 70%;
+}
+.tagline{
+	font-size: 30px;
+}
+#nav_logo{
+	width: 115px;
+}
+#logo{
+	width: 50%
+}
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
@@ -81,7 +93,7 @@ a,
 
 h1, h2, h3, h4, h5, h6 {
 	font: 900 40px/1.2 'Playfair Display', serif;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	margin: 5px 0 5px;
 	color: #222;
 }
@@ -368,7 +380,7 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/lander_bg.gif");
+    background-image: url("../images/ft.mp4");
     background-size: cover;
     height: 100%;
     left: 0;
@@ -401,7 +413,7 @@ textarea.form-control {
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
-	margin: 15px 0;
+	margin: 15px auto;
 }
 
 /* ---------------------------------------------- /*
