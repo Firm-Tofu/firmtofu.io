@@ -18,6 +18,20 @@
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 
     <script src="assets/js/modernizr.custom.js"></script>
+		<!-- Sets video to fill parent div -->
+		<style>
+		.videoInsert {
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	    min-width: 100%;
+	    min-height: 100%;
+	    width: auto;
+	    height: auto;
+	    background-size: cover;
+	    overflow: hidden;
+		}
+		</style>
 
 </head>
 <body>
@@ -31,11 +45,12 @@
 	<!-- Home start -->
 
 	<section id="home" class="pfblock-image screen-height">
+		 <video id="video" class="videoInsert" src='assets/images/ft.mp4' autoplay>
         <div class="home-overlay"></div>
+
+    </video>
 		<div class="intro">
-			<div class="start">Hello, we are <b>Firm Tofu</b></div>
-			<h1>a design firm</h1>
-			<div class="start">by vegans for vegans</div>
+			<div class="start"><img src="assets/images/logo_transparent.svg" alt="Firm Tofu" id="logo"><h1 class="tagline">We'll help your vegan business grow</h1></div>
 		</div>
 
         <a href="#services">
@@ -65,7 +80,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Firm Tofu</a>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/nav_logo.png" alt="Firm Tofu" id="nav_logo"></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
@@ -445,7 +460,6 @@
 						<h2 class="pfblock-title">What our clients say</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							Testimonials from our clients.
 						</div>
 					</div>
 
