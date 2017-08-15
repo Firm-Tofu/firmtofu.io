@@ -35,7 +35,8 @@ span{
 }
 
 figure.effect-bubba {
-	background:#d396d6!important;
+	background:#8d9480!important;
+	opacity: .8!important;
 }
 
 .cbp-qtprogress {
