@@ -780,7 +780,6 @@ textarea.form-control {
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
-	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
@@ -790,7 +789,7 @@ textarea.form-control {
 	display: block;
 	min-height: auto;
 	min-width: 100%;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .grid figure figcaption {
@@ -854,7 +853,7 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-	opacity: 0.7;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
